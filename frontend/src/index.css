@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.main-div {
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 2px;
+  margin: 10px auto 30px;
+  max-width: 38%;
+  padding: 50px 70px 70px 71px;
+  border: 2px solid black;
+}
+.heading { 
+  font-family: 'Times New Roman', Times, serif;
+  display: block;
+  font-size: 10em;
+  margin-top: 5px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  color:black;
+  font-weight: bold;
+}
+.search-tab {
+  width: 100%;
+  float: left;
+  margin-top: 10px;
+  padding: 15px
+}
+.search-tab .textboxstyle {
+  width: 100%;
+  float: left;
+  color: #191919;
+  padding: 8px 10px 8px 35px;
+  border: none;
+  border-radius: 3px;
+  background: #f5f5f5;
+  font-size: 14px;
+  line-height: 20px;
+}
+.persent-one {
+  width: 19%;
+  float: left;
+  margin-right: 1%;
+  position: relative;
+  margin-bottom: 10px;
+}
+.persent-one i {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  color: #191919;
+  font-size: 18px;
+}
+.persent-one.less-per {
+  width: 16%;
+  float: left;
+  margin-right: 1%;
+}
+.persent-one.less-btn {
+  width: 5%;
+  float: left;
+  margin-right: 1%;
+}
+.persent-one.less-btn .cst-btn {
+  width: 85px;
+  height: 85px;
+  border-radius: 100%;
+  position: absolute;
+  top: -32px;
+}
